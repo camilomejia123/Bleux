@@ -21,17 +21,17 @@ body {
 }
 nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     background-color: #1c1133;
     font-size: 25px;
     color: aliceblue;
-    padding: 10px 0;
+    padding: 10px 200px;
 }
 nav img {
     width: 100px;
     height: auto;
-    margin-right: 30%;
+    margin-right: 50%;
 }
 nav a {
     color: aliceblue;
@@ -51,9 +51,6 @@ nav a.down {
     padding: 15px 5%;
     color: aliceblue;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
 }
 .top-nav .logo {
     display: flex;
@@ -67,7 +64,6 @@ nav a.down {
 }
 .top-nav .nav-links {
     display: flex;
-    gap: 30px;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -117,12 +113,9 @@ header p {
     text-align: left;
 }
 header img {
-    position: absolute;
-    right: 15%;
-    top: 50%;
-    transform: translateY(-50%);
     height: 80%;
     object-fit: contain;
+    margin-left: 5%;
 }
 .buttons {
     display: flex;
