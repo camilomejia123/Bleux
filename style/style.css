@@ -23,7 +23,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1c1133;
+    background-color: rgb(30, 23, 47);
     font-size: 25px;
     color: aliceblue;
     padding: 10px 200px;
@@ -39,7 +39,7 @@ nav a {
     padding: 10px;
 }
 nav a.down {
-    background-image: linear-gradient(to right, rgb(0, 183, 255), rgb(90, 65, 228));
+    background-image: linear-gradient(to right, rgb(131, 65, 213), rgb(15, 121, 213));
     color: #24282b;
     border-radius: 5px;
 }
@@ -93,7 +93,7 @@ header {
     background-repeat: no-repeat;
     background-position: right center;
     background-size: contain;
-    background-color: #2b1c5b;
+    background-color: rgb(46, 37, 80);
     color: aliceblue;
     padding: 15% 5%;
     height: 400px;
@@ -138,59 +138,59 @@ header img {
 }
 .fuap{
     width: 100%;
-    color: #ff168b;
+    color: #F41486;
     border-radius: 5px;
     font-size: 1.2em;
 }
 .fonctionnalites {
-    padding: 80px 5%; /* Vertical padding for the section */
+    padding: 80px 5%;   
     text-align: center;
-    background-color: #ffffff; /* White background for this section */
+    background-color: #ffffff; 
 }
 .fonctionnalites h2 {
     font-size: 3em;
-    color: #ff007f; /* Pink color for the heading */
+    color: #F41486;
     margin-bottom: 60px;
 }
 .fonctionnalites .features-content {
     display: flex;
-    align-items: center; /* Aligns items vertically in the center */
-    gap: 50px; /* Space between the mockup and text */
-    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
-    max-width: 1200px; /* Increased max width for content within this section to allow more horizontal space */
-    margin: 0 auto; /* Center the content container */
-    padding: 0 20px; /* Add some horizontal padding to the content container itself */
+    align-items: center; 
+    gap: 50px; 
+    flex-wrap: wrap; 
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 0 20px;
 }
 .fonctionnalites .feature-mockup {
-    flex: 1; /* Allows this item to grow and shrink */
-    min-width: 300px; /* Minimum width for the mockup column */
-    max-width: 500px; /* Max width for the mockup column */
-    order: 1; /* Puts the image on the LEFT by default (on larger screens) */
+    flex: 1; 
+    min-width: 300px; 
+    max-width: 500px;
+    order: 1; 
 }
 .fonctionnalites .feature-mockup img {
     max-width: 100%;
     height: auto;
-    display: block; /* Ensures image behaves like a block element */
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    display: block; 
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); 
     border-radius: 10px;
 }
 .fonctionnalites .alpha-screenshot {
-    flex: 1; /* Allows this item to grow and shrink */
+    flex: 1; 
     text-align: left;
-    min-width: 350px; /* Minimum width for the text block */
-    max-width: 600px; /* Constrain text block width, giving it more room */
-    order: 2; /* Puts the text on the RIGHT by default (on larger screens) */
+    min-width: 350px; 
+    max-width: 600px; 
+    order: 2; 
 }
 .fonctionnalites .alpha-screenshot h3 {
     font-size: 2em;
-    color: #ff007f; 
+    color: #F41486;
     margin-bottom: 20px;
 }
 .fonctionnalites .alpha-screenshot p {  
     font-size: 1.1em;
     color: #666;
     margin-bottom: 20px;
-    line-height: 1.7; /* Improve readability */
+    line-height: 1.7; 
 }
 .fonctionnalites .alpha-screenshot ul {
     list-style: none;
@@ -204,12 +204,12 @@ header img {
     align-items: center;
 }
 .fonctionnalites .alpha-screenshot ul li i {
-    color: #2f2f30; /* Blue checkmark icons */
+    color: #2f2f30; 
     margin-right: 10px;
-    min-width: 20px; /* Ensure icon doesn't collapse */
+    min-width: 20px; 
 }
 .plans-pricing {
-    background-color: #2b1c5b;/* Light gray background */
+    background-color: rgb(46, 37, 80);
     padding: 80px 5%;
     text-align: center;
 }
@@ -222,26 +222,26 @@ header img {
     font-size: 1.1em;
     color: #ffffff;
     max-width: 800px;
-    margin: 0 auto 50px auto; /* Center text and add bottom margin */
+    margin: 0 auto 50px auto; 
     line-height: 1.8;
 }
 .plans-pricing .pricing-cards-container {
     display: flex;
     justify-content: center;
-    gap: 30px; /* Space between cards */
-    flex-wrap: wrap; /* Allow cards to wrap on smaller screens */
+    gap: 30px; 
+    flex-wrap: wrap; 
 }
 .pricing-card {
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     padding: 40px;
-    width: 300px; /* Fixed width for cards, adjust as needed */
+    width: 300px; 
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .pricing-card:hover {
-    transform: translateY(-10px); /* Lift card on hover */
+    transform: translateY(-10px); 
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 .pricing-card h3 {
@@ -252,11 +252,11 @@ header img {
 .pricing-card .price {
     font-size: 3.5em;
     font-weight: bold;
-    color: #37393a; /* Blue price color */
+    color: #37393a; 
     margin-bottom: 20px;
 }
 .pricing-card .price span {
-    font-size: 0.4em; /* Smaller text for "Free", "per month", etc. */
+    font-size: 0.4em; 
     font-weight: normal;
     color: #666;
 }
@@ -275,14 +275,14 @@ header img {
 }
 .pricing-card ul li i {
     margin-right: 10px;
-    color: #00b7ff; /* Checkmark color */
+    color: #00b7ff; 
 }
 .pricing-card ul li.faded {
-    color: #bbb; /* Faded color for unavailable features */
-    text-decoration: line-through; /* Strikethrough for unavailable features */
+    color: #bbb; 
+    text-decoration: line-through; 
 }
 .pricing-card ul li.faded i {
-    color: #bbb; /* Faded color for the 'x' icon */
+    color: #bbb; 
 }
 .pricing-card .card-description {
     font-size: 0.9em;
@@ -291,7 +291,7 @@ header img {
     line-height: 1.5;
 }
 .pricing-card .subscribe-btn {
-    background-color: rgb(30, 23, 47);
+    background-color: #2E2550;
     color: white;
     padding: 12px 30px;
     border-radius: 5px;
@@ -306,35 +306,35 @@ header img {
     opacity: 0.9;
 }
 footer {
-    background-color: #ffffff; /* Dark background */
+    background-color: #ffffff;
     color: rgb(0, 0, 0);
     padding: 40px 10%;
     text-align: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap; /* Allow items to wrap */
+    flex-wrap: wrap; 
 }
 footer p {
     margin: 0;
     font-size: 0.9em;
 }
 footer p a {
-    color: #00b7ff; /* Link color in footer */
+    color: #00b7ff; 
     text-decoration: none;
 }
 footer p a:hover {
     text-decoration: underline;
 }
 footer {
-    background-color: #ffffff; /* Even darker blue for the footer */
+    background-color: #ffffff; 
     color: #858282;
     padding: 30px 5%;
     display: flex;
-    justify-content: space-between; /* Puts space between copyright and social icons */
-    align-items: center; /* Aligns items vertically in the center of the footer */
-    flex-wrap: wrap; /* Allows content to wrap on smaller screens */
-    gap: 20px; /* Space between the text and social icons when they wrap */
+    justify-content: space-between; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    gap: 20px; 
 }
 footer p {
     margin: 0;
@@ -348,17 +348,17 @@ footer p a {
     font-weight: bold;
 }
 .social-icons {
-    display: flex; /* Make the social icons container a flex container */
-    gap: 15px; /* Space between individual icon images */
+    display: flex;
+    gap: 15px;
 }
 .social-icons .social-img {
-    width: 30px; /* Adjust the size of your social media images */
-    height: 30px; /* Keep height and width same for square images */
-    object-fit: contain; /* Ensures the whole image is visible */
-    transition: transform 0.3s ease; /* Smooth hover effect */
+    width: 30px; 
+    height: 30px; 
+    object-fit: contain;
+    transition: transform 0.3s ease; 
 }
 .social-icons .social-img:hover {
-    transform: scale(1.1); /* Slightly enlarge on hover */
+    transform: scale(1.1);
 }           
 
 
