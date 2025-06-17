@@ -103,7 +103,7 @@ header {
 }
 
 .contenido-izquierda {
-    width: 50%;
+    max-width: 50%;
 }
 
 .contenido-izquierda h1 {
