@@ -88,53 +88,59 @@ nav a.down {
     opacity: 0.9;
 }
 header {
-    position: relative;
     background-image: url("../images/hojasFondo.jpg");
     background-repeat: no-repeat;
     background-position: right center;
     background-size: contain;
     background-color: rgb(46, 37, 80);
     color: aliceblue;
-    padding: 15% 5%;
-    height: 400px;
+    padding: 5%;
+    height: 700px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     overflow: hidden;
 }
-header h1 {
-    font-size: 5em;
-    margin-bottom: 20px;
+
+.contenido-izquierda {
+    width: 50%;
 }
-header p {
+
+.contenido-izquierda h1 {
+    width: 1px;
+    font-size: 6em;
+    margin-bottom: 10px;
+}
+
+.contenido-izquierda p {
     font-size: 1.5em;
     margin-bottom: 20px;
-    max-width: 40%;
     text-align: left;
 }
-header img {
-    height: 80%;
-    object-fit: contain;
-    margin-left: 5%;
-}
-.buttons {
-    display: flex;
-    gap: 20px;
-    border: 2px solid #878292;
-    padding: 1%;
-    width: 400px;
-}
-.buttons button {
-    background: none;
-    color: aliceblue;
-    border: 2px solid #878292;
+
+.descargar, .features {
+    padding: 12px 24px;
+    font-size: 1em;
+    border: none;
     border-radius: 5px;
-    padding: 10px 20px;
     cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    font-size: 1.2em;
-    width: 100%;
+}
+
+.descargar {
+    background-color: white;
+    color: #F41486;
+}
+
+.features {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.contenido-derecha img {
+   margin-right: 300px;
+    width: 300px;
+    object-fit: contain;
 }
 .fuap{
     width: 100%;
@@ -300,7 +306,7 @@ header img {
     font-size: 1.1em;
     border: none;
     cursor: pointer;
-    transition: opacity 0.3s ease;
+    transition: background-color 0.3s #F41486 ;
 }
 .pricing-card .subscribe-btn:hover {
     opacity: 0.9;
